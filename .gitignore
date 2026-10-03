@@ -1,0 +1,33 @@
+# 运行时缓存与产物（不要提交）
+.geo-cache/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 定位任务的中间产物
+board.json
+result.json
+intake/
+rev/
+rev2/
+rev3/
+q/
+v/
+t/
+edges/
+variants/
+*.jsonl
+
+# 生成的图像产物
+*-overlay.jpg
+*_overlay.jpg
+sheet.jpg
+sheet-*.jpg
+ridge.png
+evidence*.jpg
+*_similar.jpg
+
+# 局部编辑/剪辑备份
+*.orig
+*.rej
+*~
